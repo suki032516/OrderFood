@@ -11,8 +11,8 @@ import java.util.Properties;
 public final class MailUtils {
 
 
-    private static final String USER = "3513683871@qq.com"; // 发件人称号，同邮箱地址
-    private static final String PASSWORD = "hspzhjzfedctdbae"; // 如果是qq邮箱可以使户端授权码，或者登录密码
+    private static final String USER = "2256766870@qq.com"; // 发件人称号，同邮箱地址
+    private static final String PASSWORD = "suki032516@azj"; // 如果是qq邮箱可以使户端授权码，或者登录密码
 
 
     /***
@@ -69,7 +69,7 @@ public final class MailUtils {
 }
 
        public static void main(String[] args) throws Exception { // 做测试用
-            MailUtils.sendMail("3513683871@qq.com","你好，这是一封测试邮件，无需回复。","测试邮件");
+            MailUtils.sendMail("2256766870@qq.com","你好，这是一封测试邮件，无需回复。","测试邮件");
             System.out.println("send success");
   }
 
